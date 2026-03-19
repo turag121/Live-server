@@ -1,0 +1,19 @@
+body{
+    font-family: Arial;
+    background-color: rgb(204, 231, 238);
+    text-align: center;
+}
+
+.box{
+    width: 300px;
+    background-color: rgb(242, 236, 236);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgb(13, 13, 13);
+}
+
+input{
+    width: 150px;
+    background-color: rgb(13, 13, 13);
+    font-family: 'Times New Roman', Times, serif;
+}
