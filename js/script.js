@@ -2,6 +2,7 @@ let unitPrice = 1000;
 
 let qty = document.getElementById("qty");
 let total = document.getElementById("total");
+let btn = document.getElementById("btn")
 
 qty.addEventListener("input", function(){
 
@@ -17,8 +18,12 @@ qty.addEventListener("input", function(){
 
     total.value = totalPrice;
 
-    if(totalPrice > 1000){
-        alert("You are eligible for a gift coupon!");
-    }
-
 });
+
+btn.addEventListener("click", function(){
+    let totalPrice= parseInt(total.value)
+
+    if(totalPrice>1000){
+         alert("You are eligible for a gift coupon!");
+    }
+})
