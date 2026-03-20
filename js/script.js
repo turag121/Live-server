@@ -6,7 +6,7 @@ let btn = document.getElementById("btn")
 
 qty.addEventListener("input", function(){
 
-    let quantity = parseInt(qty.value);
+    let quantity = parseFloat(qty.value);
 
     if(quantity < 0){
         alert("Quantity cannot be negative");
